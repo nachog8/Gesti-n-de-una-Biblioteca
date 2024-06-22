@@ -13,7 +13,9 @@ function Libro(titulo, autor, añoPublicacion, genero) {
 let biblioteca = [
     new Libro("Spider-Man: Blue", "Jeph Loeb", 2002, "Cómic"),
     new Libro("Batman: Year One", "Frank Miller", 1987, "Cómic"),
-    new Libro("Superman: Red Son", "Mark Millar", 2003, "Cómic")
+    new Libro("Superman: Red Son", "Mark Millar", 2003, "Cómic"),
+    new Libro("El Hobbit", "J.R.R. Tolkien", 1937, "Fantasía"),
+    new Libro("1984", "George Orwell", 1949, "Ciencia ficción")
 ];
 
 // Función para buscar libros por autor
